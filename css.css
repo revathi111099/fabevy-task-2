@@ -1,0 +1,373 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+/*--header details start--*/
+.container{
+	width:1140px;
+	margin:0 auto;
+	background-color:rgb(227 207 207 /30%);
+	padding:20px 30px;					
+}
+img{
+	width:124px;
+	height:129px;
+	border-radius:50%;
+	border:4px solid black;
+}
+.name{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+} 
+.user-img{
+	width:14%;
+}
+.user-img{
+	width:110px;
+}
+.profile{
+	width:85%;
+}
+.name .reva{
+	border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.name .navbar ul{
+	list-style:none;
+}
+.name .navbar ul li{
+	display:inline-block;
+	margin:0px 15px;
+	color:#999;
+}
+.name .navbar ul li:nth-child(1){
+	margin-left:0px;
+}
+.navbar ul li a{
+	color:#999;
+	text-decoration:none;
+	display:block;
+}
+.navbar ul li a.active{
+	color:#000;
+} 
+.navbar ul li a:hover{
+	color:#000;
+}
+/*--header details end--*/
+/*--developer details start--*/
+.developer{
+	background-color:black;
+	padding:80px 15px;
+	text-align:center;
+	width:1078px;
+	margin-top:30px;
+}
+.developer-content h2{
+	color:#999;
+	font-size:20px;
+}	
+.developer-content h3{
+	color:white;
+	font-size:35px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.developer-content p{
+	color:#999;
+	font-size:20px;
+}
+.developer-content a{
+	color:white;
+	font-size:16px;
+	text-decoration:none;
+	display:inline-block;
+	padding:10px 15px;
+	text-align:center;
+	border:1px solid white;
+	margin-top:15px;
+}
+/*--developer details end--*/
+/*--skill details start--*/
+.rose{
+	border-top:1px solid #999;
+	padding:10px;
+}
+.brush{
+	border:none;
+	width:47px;
+	height:61px;
+}
+.img1 {
+	display:flex;
+    align-items:center;
+	justify-content:space-between;
+} 
+.mail1 h4{
+	font-size:25px; 
+	margin-left:0px;
+}
+.rose .list ul{
+	list-style:none;
+}
+.rose .list ul li{
+	display:inline-block;
+	margin:16px 56px;
+	color:black;
+}
+.rose .list ul li:nth-child(1){
+	margin-left:0px;
+}
+.rose{
+	border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+/*--skill details end--*/
+/*--education details start--*/
+.study{
+	border:none;
+	width:61px;
+	height:61px;
+}
+.edu1 h5{
+	font-size:25px; 
+	margin-left:0px;
+}
+.img2 {
+	display:flex;
+    align-items:center;
+	justify-content:space-between;
+}
+.may1{
+	border-left:2px solid #999;
+	padding:18px;
+	width:538px;
+	margin:3px;
+}
+.may1 h6 {
+	font-size:15px;
+}
+.may1 p{
+	color:rgb(171 158 158 / 48%);
+}
+.may{
+	display:flex;
+	}
+.percent p{
+	border:1px solid black;
+	align-content:center;
+	width:76px;
+	height:59px;
+	padding:20px;
+	background-color: rgb(155 144 144 / 43%);
+	
+}
+.april1{
+	border-left:2px solid #999;
+	padding:18px;
+	width:538px;
+	margin:3px;
+}
+.april1 p{
+	color:rgb(171 158 158 / 48%);
+}
+.april{
+	display:flex;
+}
+.percent1 p{
+	border:1px solid black;
+	align-content:center;
+	width:76px;
+	height:59px;
+	padding:20px;
+	background-color: rgb(155 144 144 / 43%);
+}
+.april3{
+	border-left:2px solid #999;
+	padding:18px;
+	width:538px;
+	margin:3px;
+}
+.april3 p{
+	color:rgb(171 158 158 /48%);
+}
+.april2{
+	display:flex;
+}
+.percent2 p{
+	border:1px solid black;
+	align-content:center;
+	width:76px;
+	height:59px;
+	padding:20px;
+	background-color: rgb(155 144 144 / 43%);
+}
+.sub{
+	border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+/*--education details end--*/
+/*--project details start--*/
+.pro{
+	border:none;
+	width:47px;
+	height:61px;
+}
+.img3 {
+	display:flex;
+    align-items:center;
+	justify-content:space-between;
+} 
+.mini1 h5{
+	font-size:25px; 
+	margin-left:0px;
+}
+.final1{
+	border-left:2px solid #999;
+	padding:18px;
+	width:801px;
+	margin:3px;
+}
+.final1 p{
+	color:rgb(171 158 158/ 48%);
+}
+.final1 h6{
+	font-size:20px;
+}
+.arts1{
+	border-left:2px solid #999;
+	padding:18px;
+	width:801px;
+	margin:3px;
+}
+.arts1 p{
+	color:rgb(171 158 158/ 48%);
+}
+.arts1 h5{
+	font-size:20px;
+}
+.science1{
+	border-left:2px solid #999;
+	padding:18px;
+	width:801px;
+	margin:3px;
+}
+.science1 p{
+	color:rgb(171 158 158 / 48%);
+}
+.science1 h4{
+	font-size:20px;
+}
+.mini{
+    border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+/*--project details end--*/
+/*--contact details start--*/	
+.socialmedia h1{
+	font-size:20px;
+}
+.water
+{
+	width:44px;
+	height:49px;
+	border-radius:none;
+	border:none;
+}
+.soda
+{
+	width:44px;
+	height:49px;
+	border-radius:none;
+	border:none;
+}
+.onion
+{
+	width:44px;
+	height:49px;
+	border-radius:none;
+	border:none;
+}
+.salt
+{
+	width:44px;
+	height:49px;
+	border-radius:none;
+	border:none;
+}
+.potato
+{
+	width:44px;
+	height:49px;
+	border-radius:none;
+	border:none;
+}
+.stick
+{
+	width:44px;
+	height:49px;
+	border-radius:none;
+	border:none;
+}
+.bottle
+{
+	width:44px;
+	height:49px;
+	border-radius:none;
+    border:none;
+}
+.size{
+	color:grey;
+}
+/*--contact details end--*/
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
